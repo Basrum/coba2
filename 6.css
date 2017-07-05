@@ -1,0 +1,11 @@
+ol li{
+color:red;
+}
+
+ul>li{
+color:blue;
+}
+
+ul >li >ul >li{
+color: green;
+}

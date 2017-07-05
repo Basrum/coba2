@@ -1,0 +1,256 @@
+body{
+	text-align:left;
+   margin-top: auto;
+   margin-bottom: auto; 
+   margin-right: 0;
+   margin-left: 0;
+   left:0;
+   right:0;
+   top:0;
+   bottom: -32;
+   
+   background:  #E5E7E9;
+   position: 
+}
+#kotak{
+   width:100%;
+   height:300px;
+   background: #D7DBDD;
+
+}
+
+
+#kotak2{
+
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   width:1000px;  
+   height:50px;
+   background:#F2F4F4;
+   float:left;
+   position: relative; 
+   left:175;
+   right:0;
+   top:-20;
+   bottom: 0;
+   border: 3px black;
+}
+
+#kepala{
+	width:100%;	
+	height:80px;
+	background:  black;
+   position: absolute;
+
+}
+#badan{
+	width:1000px;	
+	height:1000px;
+	background:solid #C0C0C0;
+	float:left;
+   position: 
+
+}
+#sidebar{
+   margin-left:auto;
+   margin-top: auto;
+   margin-right:auto;
+	width:1000px;	
+	height:1000px;
+	background: #F2F4F4;
+	float:center;
+   position: absolute;
+   left:0;
+   right:0;
+   top: 330;
+}
+
+#kaki{
+   margin-top: auto;
+	width:100%;	
+	height:70px;
+	background:black;
+   position: absolute;
+   top: 200%;
+	
+}
+
+#tempat
+{
+   width:100%;
+   height:20px;
+  
+}
+
+#n
+{
+   height:35px;
+   width: 700px;
+   float: left;
+}
+
+#n li
+{
+   height:35px;
+   float:left;
+   display:inline;
+   margin:0 5px;
+   position:relative;
+   font-family:arial ;
+   z-index:5000;
+
+   
+}
+
+#n li a
+{
+   float:left;
+   display:inline;
+   height:25px;
+   padding-left: 20px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size:12px;
+   color: white;
+
+}
+
+#n li:hover a
+{
+   text-decoration:none;
+   color:gray;
+}
+
+
+#profil
+{
+   height:35px;
+   width: 200px;
+   float: right;
+}
+
+#profil li
+{
+   height:35px;
+   float:left;
+   display:inline;
+   margin:0 5px;
+   position:relative;
+   font-family:arial ;
+   z-index:5000;
+
+   
+}
+
+#profil li a
+{
+   float:left;
+   display:inline;
+   height:25px;
+   padding-left: 20px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size:12px;
+   color: white;
+
+}
+
+#profil li:hover a
+{
+   text-decoration:none;
+   color:gray;
+}
+
+
+#tempat ul ul
+{
+   position:absolute;
+   z-index:1200;
+   display:none;
+   width:180px;
+   margin: 0;
+   top: 35px;
+   left: 0;
+   background:black;
+   padding:0 0 2px 0;
+}
+
+#tempat li ul li
+{
+   display: inline;
+   float: left;
+   width: 180px;
+   height: auto;
+   border-bottom: 1px solid white;
+   float: left;
+   padding: 0;
+   position: relative;
+   margin: 0;
+}
+
+#tempat ul li ul li ul li
+{
+   display: inline;
+   float: left;
+   padding: 0;
+}
+
+#tempat #n li:hover ul li a, #tempat #n li:hover ul li a:link, #tempat #n li:hover ul li a:visited
+{
+   color:white;
+   font-size:15px;
+   width:170px;
+   height:auto;
+   text-transform:none;
+   border:none;
+   background: black;
+   padding:9px 8px;
+   text-shadow: none;
+   margin: 0;
+   font-weight:lighter;
+}
+
+#tempat #n li:hover ul li a:hover, #tempat #n li ul li a:hover
+{
+   text-decoration:none;
+   color:black;
+   background:white;
+}
+
+
+div#tempat li:hover ul ul, div#tempat li li:hover ul ul
+{
+   display: none;
+}
+
+div#tempat li:hover ul, div#tempat li li:hover ul
+{
+   display: block;
+}
+
+p{
+   margin: 20px 150px;
+   font-family: Arial Narrow;
+}
+
+ol li {
+   margin: 0px 125px;
+   font-family: Arial Narrow;
+}
+
+ol li ol li
+{
+   margin: 0px 10px;
+   font-family: Arial Narrow;
+}
+
+div>img
+{
+   margin: 0px 150px;
+}
+
+
